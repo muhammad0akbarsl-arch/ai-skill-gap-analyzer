@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # =========================
 st.set_page_config(page_title="AI Skill Gap Analyzer", layout="wide")
 
-client = OpenAI(api_key=st.secrets["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"])
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY")
 
 st.title("📄 AI Skill Gap Analyzer (ATS Style)")
 
